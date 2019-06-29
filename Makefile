@@ -5,11 +5,11 @@ all: clean_site
 clean_site: clean _site
 
 _site:
-	jekyll --pygments
+	jekyll build
 	ln -s . _site/beanstalkd
 
 server: clean_site
-	jekyll --pygments --auto --server 7000
+	jekyll serve --watch
 
 clean:
 	rm -rf _site
