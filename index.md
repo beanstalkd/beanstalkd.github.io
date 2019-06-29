@@ -20,7 +20,7 @@ asynchronously.
 
 ### {{ post.date | date_to_long_string }}
 
-[{{ post.title }}](/beanstalkd{{ post.url }})
+[{{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
