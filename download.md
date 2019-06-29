@@ -16,7 +16,7 @@ Beanstalk is distributed under the [MIT license][mit].
 
 [`{{ post.file }}`]({{ post.dist }})
 released on {{ post.date | date_to_long_string }}.  
-Read [{{ post.version }} release notes](/beanstalkd{{ post.url }}).
+Read [{{ post.version }} release notes]({{ post.url }}).
 
       {% assign want = false %}
     {% endif %}
