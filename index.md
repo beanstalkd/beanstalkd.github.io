@@ -82,5 +82,5 @@ fantastic piece of software!
 [cof]: http://apps.facebook.com/causes/
 [mailinglist]: http://groups.google.com/group/beanstalk-talk
 [memcached]: http://www.danga.com/memcached/
-[client libraries]: http://wiki.github.com/kr/beanstalkd/client-libraries
-[adm]: https://github.com/kr/beanstalkd/tree/master/adm
+[client libraries]: https://github.com/beanstalkd/beanstalkd/wiki/Client-Libraries
+[adm]: https://github.com/beanstalkd/beanstalkd/tree/master/adm
