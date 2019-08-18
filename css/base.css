@@ -194,8 +194,9 @@ nav > menu > li {
 
 nav > menu > li > a {
   display: inline-block;
-  width: 105px;
-  padding: 25px 0 2px 13px;
+  min-width: 50px;
+  text-align: center;
+  padding: 25px 5px 2px 5px;
 }
 
 nav > menu > li > a[href]:hover {
